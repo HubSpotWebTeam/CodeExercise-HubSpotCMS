@@ -46,7 +46,7 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 ## The finished page
 
-![Finished page image][hubspot-cms-code-exercise-finished-img]
+![Finished page image][img-hubspot-cms-code-exercise-finished]
 
 ## Requirements
 
@@ -129,8 +129,8 @@ Although we expect you to finish the exercise completely, we understand that lif
 [free-sandbox]: https://offers.hubspot.com/free-cms-developer-sandbox
 [cms-hub-free-trial]: https://app.hubspot.com/signup/trial-signup?intent=trial&trialId=18&dtt_source=get-started-page&hubs_signup-url=www.hubspot.com/products/get-started&hubs_signup-cta=getstarted-cmstrial&hubs_content=www.hubspot.com/&hubs_content-cta=homepage-nav&hs_chatflow=BOT117_VarA&_ga=2.209061524.766654493.1626950831-623576512.1624288828
 [hubspot-cms-cli-docs]: https://developers.hubspot.com/docs/cms/guides/getting-started
-[img-hubspot-cms-code-exercise-finished]: https://lh5.googleusercontent.com/Nxaa--OEEPrMFbo04R4UerRN7w8-twbGypBy-4r_ZUF2WS1XQU1kGY904hDixuiDwKXGz7wPSHQW97p6T5xp05s2uIqUHA72ox3ygeUpElxXxzc3yZ8uiKFSbKAiJPAOImhm6INg
-[img-global-header-editable-quote]: https://lh6.googleusercontent.com/DR48781Mvs4Hy9V5bWqldeYxMPMP6UULpZSdDHsrX8p-18hw-q8SMv3brCwXst9fA2UPX03ltpiV-IckpV5wdL0Zu4SSEqVEIpM6PF-daWJc1EKiKHWLh_AyKyPqQ6mL5zzqDxbs
-[img-two-column-drag-and-drop]: https://lh5.googleusercontent.com/6LjT2ZiL0_fzYOu-QVT8LNO5C25EFDLfGIEduDGBZ0CpRskRue6WCNH08zG8_rSOCVSsBc2yV6TNd2PcJH6E7Sy6Q6wbX8RXm_3Iu0QY5SaVdhXvgiZg7G_HvZ7f1igwpyPKPW_B
-[img-resizing-page-breakpoints-effect]: https://lh6.googleusercontent.com/hJUOeEIjWwGGn9N6j953Td89vWDdEv31kZbdn27P6CwBJF9dn8ND5bs4fkTVp4SfLvtiVnJFcZyvi4sg0K2_E5ThO3T8U6ApFak19dSP6oJjUDBPwTtRPNh4ZwQAZd7HY8JJtP3z
-[img-theme-fields]: https://lh6.googleusercontent.com/QoM8KrMRLl8cG_gFEXslVBubvEKWgJq7alM3Xj1FDZMVqbR2HetaakuyMaS9KItYOpgmMhQm569zHahWv56QoAePKKj407ODakmvJou7qS7I1MTtNRkCX_0o8gtvXAGVO8VroXc7
+[img-hubspot-cms-code-exercise-finished]: ./img-hubspot-cms-code-exercise-finished.png
+[img-global-header-editable-quote]: ./img-global-header-editable-quote.gif
+[img-two-column-drag-and-drop]: ./img-two-column-drag-and-drop.gif
+[img-resizing-page-breakpoints-effect]: ./img-resizing-page-breakpoints-effect
+[img-theme-fields]: ./img-theme-fields
