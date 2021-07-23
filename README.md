@@ -29,14 +29,14 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 2. Create a HubSpot theme from scratch. (note: in production situations we recommend using the boilerplate theme as a starting point, but for this assessment please create one from scratch). The basic folder and file structure should look like this:
 
 * Theme folder
-** CSS folder
-*** At least one css file
+  * CSS folder
+    * At least one css file
 * Modules
-** At least one module (with html, css, js, fields, meta files)
+   At least one module (with html, css, js, fields, meta files)
 * Templates
-** At least one template file
-** Partials folder
-*** Partials for header and footer
+  * At least one template file
+  * Partials folder
+    * Partials for header and footer
 * Fields.json
 * Theme.json
 
@@ -52,30 +52,30 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 * All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
 * Global template partials for header and footer
-** Header must have editable quote
+  * Header must have editable quote
 
 ![Global header editable quote][img-global-header-editable-quote]
 
 *Editing the global header and changing the quote.*
 
 * Drag and drop area
-** Must have two columns with an image module and a rich text module.
-** These modules must have default content set inside the template
+  * Must have two columns with an image module and a rich text module.
+  * These modules must have default content set inside the template
 
 ![Two column drag and drop][img-two-column-drag-and-drop]
 
 *Dragging the two column drag and drop area in the page editor.*
 
 * Team module
-** Must use repeating groups of fields to allow editors to add and subtract team members
-** Must be at least 3 columns on large screens with at least one media query to change layout to 2 columns on screens below 900 pixels
+  * Must use repeating groups of fields to allow editors to add and subtract team members
+  * Must be at least 3 columns on large screens with at least one media query to change layout to 2 columns on screens below 900 pixels
 
 ![Resizing effect][img-resizing-page-breakpoints-effect]
 
 *Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
 
 * Theme fields
-** The theme must have at least 2 theme fields to control the font and the accent color used in the header and footer
+  * The theme must have at least 2 theme fields to control the font and the accent color used in the header and footer
 
 ![Editing theme field][img-theme-fields]
 
