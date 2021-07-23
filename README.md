@@ -14,15 +14,15 @@ It's not mandatory but recommended that you take the [HubSpot CMS for Developers
 
 ---
 
-# Objective: Create a theme
+## Objective: Create a theme
 
-# Important pre-condition
+### Important pre-condition
 
 You will need to make sure you have access to a HubSpot Portal or a Developer Sandbox. That's easy!
 * [You can create a free HubSpot CMS Developer Sandbox][free-sandbox], or;
 * [Just get the HubSpot CMS Hub free trial][cms-hub-free-trial]!
 
-## Directions
+### Directions
 
 1. Review all the requirements on this page.
 
@@ -44,11 +44,11 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 4. Make sure your code is versioned! You will need to share a link of the Github repository containing all your code with us when submiting this assessment.
 
-## The finished page
+### The finished page
 
 ![Finished page image][img-hubspot-cms-code-exercise-finished]
 
-## Requirements
+### Requirements
 
 * All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
 * Global template partials for header and footer
@@ -62,7 +62,7 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 ** Must have two columns with an image module and a rich text module.
 ** These modules must have default content set inside the template
 
-![Global header editable quote][img-two-column-drag-and-drop]
+![Two column drag and drop][img-two-column-drag-and-drop]
 
 *Dragging the two column drag and drop area in the page editor.*
 
@@ -70,18 +70,18 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 ** Must use repeating groups of fields to allow editors to add and subtract team members
 ** Must be at least 3 columns on large screens with at least one media query to change layout to 2 columns on screens below 900 pixels
 
-![Global header editable quote][img-resizing-page-breakpoints-effect]
+![Resizing effect][img-resizing-page-breakpoints-effect]
 
 *Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
 
 * Theme fields
 ** The theme must have at least 2 theme fields to control the font and the accent color used in the header and footer
 
-![Global header editable quote][img-theme-fields]
+![Editing theme field][img-theme-fields]
 
 *Editing the theme field that controls the header accent color.*
 
-## Bonus points
+### Bonus points
 
 * Use modern JavaScript (ES6+), but be wary of browser support (see the FAQ section for a list of browsers we'll check support for).
 * Use a Javascript framework, e.g. React, Angular, Vue etc.
@@ -89,7 +89,7 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 * Add fuzzy search to the search field.
 * Anything that improves the experience for the user.
 
-## Tips
+### Tips
 
 * Use the HubSpot themes and the boilerplate to figure out the specifics of techniques and syntax for these challenges.
 * You’ll probably want to use the layout.css file from the boilerplate to make your drag and drop area perform as expected.
@@ -98,7 +98,7 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 ---
 
-# How to Submit
+## How to Submit
 
 Fill out the submission.md file before submitting. If you deviated from the instructions or have any feedback, that's the place to put it! **Make sure you provide the link of your live page!**
 
@@ -106,12 +106,12 @@ Once complete, email either (a) a zip of your work or (b) a link to your GitHub 
 
 ---
 
-# FAQs
+## FAQs
 
-## When is the assessment due?
+### When is the assessment due?
 Please submit your exercise within four (4) days of receiving it. If you need extra time please reach out to your recruiting specialist.
 
-## Which browsers should I support?
+### Which browsers should I support?
 We'll look for compatibility with the following browsers:
 
 * Google Chrome (latest version)
@@ -121,7 +121,7 @@ We'll look for compatibility with the following browsers:
 * What color values should I use?
 * The exact color values don't matter; just try to get as close to the mockup as you can. You could also use a Chrome extension such as this color-picker.
 
-## I'm running out of time, may I skip some of the requirements?
+### I'm running out of time, may I skip some of the requirements?
 
 Although we expect you to finish the exercise completely, we understand that life happens. If you aren't able to finish on time, focus on the Team Module (its responsive behaviour for the final page viewed and easy of use from a Page Publisher perspective). Please use the submission.md fil to give us some insight as to what requirements your submission is missing and what you would have done.
 
@@ -132,5 +132,5 @@ Although we expect you to finish the exercise completely, we understand that lif
 [img-hubspot-cms-code-exercise-finished]: ./img-hubspot-cms-code-exercise-finished.png
 [img-global-header-editable-quote]: ./img-global-header-editable-quote.gif
 [img-two-column-drag-and-drop]: ./img-two-column-drag-and-drop.gif
-[img-resizing-page-breakpoints-effect]: ./img-resizing-page-breakpoints-effect
-[img-theme-fields]: ./img-theme-fields
+[img-resizing-page-breakpoints-effect]: ./img-resizing-page-breakpoints-effect.gif
+[img-theme-fields]: ./img-theme-fields.gif
