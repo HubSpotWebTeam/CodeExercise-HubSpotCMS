@@ -137,8 +137,9 @@ We'll look for compatibility with the following browsers:
 * Apple Safari (latest version)
 * Mozilla Firefox (latest version)
 * Microsoft Edge (latest version)
-* What color values should I use?
-* The exact color values don't matter; just try to get as close to the mockup as you can. You could also use a Chrome extension such as this color-picker.
+
+### What color values should I use?
+The exact color values don't matter; just try to get as close to the mockup as you can. You could also use a Chrome extension such as this color-picker.
 
 ### I'm running out of time, may I skip some of the requirements?
 
