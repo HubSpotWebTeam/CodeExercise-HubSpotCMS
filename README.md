@@ -8,7 +8,7 @@ The goal of this exercise is to create a HubSpot theme so we can gauge your prof
 * HTML/CSS/JS
 * General resourcefulness and troubleshooting skills
 
-*If you are a Web Developer with no experience with any CMS or no contact with the HubSpot CMS,the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] (Duration ~2.5 hours) will be quite helpfull! That course is not mandatory for this process but it will help you to familiarise with HubSpot CMS and other CMS concepts.*
+*If you are a Web Developer with no experience with any CMS or no contact with the HubSpot CMS, the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] (Duration ~2.5 hours) will be quite helpfull! That course is not mandatory for this process but it will help you to familiarise with HubSpot CMS and other CMS concepts.*
 
 ---
 
