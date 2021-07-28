@@ -5,16 +5,14 @@ Welcome to another HubSpot Web Team's coding exercise! 👋
 The goal of this exercise is to create a HubSpot theme so we can gauge your proficiency in the following skills:
 
 * Familiarity with the HubSpot CMS and CMS concepts in general
-* HTML/CSS
-* General resourcefulness
+* HTML/CSS/JS
+* General resourcefulness and troubleshooting skills
 
 It's not mandatory but recommended that you take the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] (Duration ~2.5 hours). That course will help you to familiarise with HubSpot CMS and other CMS concepts. So, if you are a Web Developer with no experience with any CMS or no contact with the HubSpot CMS, that HubSpot Academy course will be quite helpfull! 
 
-**Please not that the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] offers a similar practicum to this code exercise but this present assessment has some extra requirements and it's submission and review are part of tottally separeted processes.**
+---
 
 **Make sure you read these instructions carefully before you start. If you have any questions please reach out to your recruiting specialist.**
-
----
 
 ## Objective: Create a theme
 
@@ -50,11 +48,11 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 4. Make sure your code is versioned! You will need to share a link of the Github repository containing all your code with us when submiting this assessment.
 
-**The Cats Library **
+**The Cats Library**
 
 5. Create another page to hold a cat library containing the same header and footer present on the global theme.
 
-7. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][hcode-exercise-cats-lib].
+7. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][hcode-exercise-cats-lib]. Make sure the library module is added to the page and that the global theme links and menus contains a link to this newly crreated page.
 
 ### Home Page Elements
 
@@ -117,9 +115,11 @@ The image bellow shows the order of the modules and how the content should be di
 
 ## How to Submit
 
-Fill out the submission.md file before submitting. If you deviated from the instructions or have any feedback, that's the place to put it! **Make sure you provide the link of your live page!**
+Fill out the submission.md file before submitting. If you deviated from the instructions or have any feedback, that's the place to put it! **Make sure you provide both the source code (your Github repository) and the link of your live page!**
 
 Once complete, email either (a) a zip of your work or (b) a link to your GitHub repository to your recruiting specialist so they can forward it to the web team.
+
+*Please not that the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] offers a similar practicum to this code exercise to give you a HubSpot Academy Certification but this present assessment has some extra requirements and its submission and review are part of tottally separeted processes.* **So please make sure to submit this assessment as explained above.**
 
 ---
 
