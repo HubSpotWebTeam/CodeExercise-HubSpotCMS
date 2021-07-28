@@ -24,6 +24,11 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 ### Directions
 
+**Managing the source code**
+
+* If you are using the HubSpot CMS directly to code and implement your solution just make sure to download **all source the files**, keep the folder structure and zip them for submission. 
+* If you are using the [CMS CLI strategy][hubspot-cms-cli-docs], you might be versioning your code using GitHub (or similar tool). Feel free to either provide a zip file or a link to your repository.
+
 **The Theme**
 
 1. Review all the requirements on this page.
@@ -44,15 +49,13 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 **The Homepage**
 
-3. Use the page editor to create a page from your template. Make sure it behaves like the page in the demo gifs. If you are an experienced HubSpot CMS user and [want to use the HubSpot CLI][hubspot-cms-cli-docs], that's fine too!
+3. Use the page editor to create a page from your template. Make sure it behaves like the page in the demo gifs. If you are an experienced HubSpot CMS user and [want to use the HubSpot CLI][hubspot-cms-cli-docs], that's fine too! This page should contain the global header and footer plus the *Our Mission* and *Our Team* sections (see *Team module* requirements).
 
-4. Make sure your code is versioned! You will need to share a link of the Github repository containing all your code with us when submiting this assessment.
+**The Cats Library Page**
 
-**The Cats Library**
+4. Create another page to hold a cat library containing the same header and footer present on the global theme.
 
-5. Create another page to hold a cat library containing the same header and footer present on the global theme.
-
-7. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][code-exercise-cats-lib]. Make sure the library module is added to the page and that the global theme links and menus contains a link to this newly crreated page.
+5. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][code-exercise-cats-lib]. Make sure the library module is added to the page and that the global theme links and menus contains a link to this newly crreated page.
 
 ### Home Page Elements
 
@@ -84,11 +87,11 @@ The image bellow shows the order of the modules and how the content should be di
 
 ![Resizing effect][img-resizing-page-breakpoints-effect]
 
+*Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
+
 * Cats Library module
   * Must have the same look and feel of the Team module
   * Must fetch the data from [this endpoint][code-exercise-cats-lib]
-
-*Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
 
 * Theme fields
   * The theme must have at least 2 theme fields to control the font and the accent color used in the header and footer
@@ -105,6 +108,7 @@ The image bellow shows the order of the modules and how the content should be di
 * Use a Javascript framework, e.g. React, Angular, Vue etc.
 * Use linting/prettify for neater code.
 * Anything that improves the experience for the user.
+* Create the page with accessibility in mind and use semantic HTML.
 
 ### Tips
 
