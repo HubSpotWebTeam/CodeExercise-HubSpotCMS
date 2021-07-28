@@ -49,13 +49,13 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 **The Homepage**
 
-3. Use the page editor to create a page from your template. Make sure it behaves like the page in the demo gifs. If you are an experienced HubSpot CMS user and [want to use the HubSpot CLI][hubspot-cms-cli-docs], that's fine too! This page should contain the global header and footer plus the *Our Mission* and *Our Team* sections (see *Team module* requirements).
+3. Use the page editor to create a page from your template. Make sure it behaves like the page in the demo gifs. This page should contain the global header and footer plus the *Our Mission* and *Our Team* sections (see *Team module* requirements).
 
 **The Cats Library Page**
 
 4. Create another page to hold a cat library containing the same header and footer present on the global theme.
 
-5. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][code-exercise-cats-lib]. Make sure the library module is added to the page and that the global theme links and menus contains a link to this newly crreated page.
+5. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][code-exercise-cats-lib]. Make sure the *Cats Library module* is added to the page and that the global theme links and menus contains a link to this newly crreated page.
 
 ### Home Page Elements
 
@@ -65,7 +65,7 @@ The image bellow shows the order of the modules and how the content should be di
 
 ### Requirements
 
-* All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
+* All work must be your own. Submissions that do not meet this requirement will not be considered.
 * Global template partials for header and footer
   * Header must have editable quote
 
@@ -115,7 +115,8 @@ The image bellow shows the order of the modules and how the content should be di
 * Use the HubSpot themes and the boilerplate to figure out the specifics of techniques and syntax for these challenges.
 * You’ll probably want to use the layout.css file from the boilerplate to make your drag and drop area perform as expected.
 * You can build this locally or in the Design Tools.
-* The subject of the theme is up to you. If you're not a fan of cats, feel free to use any topic you'd like. Creativity is encouraged.
+* The subject of the theme is up to you. If you're not a fan of cats, feel free to use any topic you'd like. **Creativity is encouraged.**
+* Try to create a single template for both the Homepage and the Cats Library Page and leverage [Drag and Drop areas][drag-n-drop-hubl].
 
 ---
 
@@ -160,3 +161,4 @@ Although we expect you to finish the exercise completely, we understand that lif
 [img-theme-fields]: ./imgs/img-theme-fields.gif
 [code-exercise-cats-lib]: https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/main/data/cats.json
 [cms-theme-boilerplate]: https://github.com/HubSpot/cms-theme-boilerplate
+[drag-n-drop-hubl]: https://developers.hubspot.com/docs/cms/hubl/tags/dnd-areas
