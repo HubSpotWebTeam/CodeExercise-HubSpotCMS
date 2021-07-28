@@ -5,27 +5,27 @@
 			"role": "Manager",
 			"photo": "https://github.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/raw/main/imgs/cats/Blicero.jpeg"
 		},
-        {
+        	{
 			"name": "Bodine",
 			"role": "Habadasher",
 			"photo": "https://github.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/raw/main/imgs/cats/Bodine.jpeg"
 		},
-        {
+        	{
 			"name": "Enzian",
 			"role": "CTO",
 			"photo": "https://github.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/raw/main/imgs/cats/Enzian.jpeg"
 		},
-        {
+        	{
 			"name": "Katje",
 			"role": "CEO",
 			"photo": "https://github.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/raw/main/imgs/cats/Katje.jpeg"
 		},
-        {
+        	{
 			"name": "Slothrop",
 			"role": "HR",
 			"photo": "https://github.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/raw/main/imgs/cats/Slothrop.jpeg"
 		},
-        {
+        	{
 			"name": "Tchitcherine",
 			"role": "Design",
 			"photo": "https://github.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/raw/main/imgs/cats/Tchitcherine.jpeg"
