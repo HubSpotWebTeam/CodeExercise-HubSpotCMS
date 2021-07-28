@@ -8,7 +8,9 @@ The goal of this exercise is to create a HubSpot theme so we can gauge your prof
 * HTML/CSS
 * General resourcefulness
 
-It's not mandatory but recommended that you take the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] (Duration ~2.5 hours). That course will help you to familiarise with HubSpot CMS and other CMS concepts. So, if you are a Web Developer with no experience with any CMS or no contact with the HubSpot CMS, that HubSpot Academy course will be quite helpfull!
+It's not mandatory but recommended that you take the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] (Duration ~2.5 hours). That course will help you to familiarise with HubSpot CMS and other CMS concepts. So, if you are a Web Developer with no experience with any CMS or no contact with the HubSpot CMS, that HubSpot Academy course will be quite helpfull! 
+
+**Please not that the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] offers a similar practicum to this code exercise but this present assessment has some extra requirements and it's submission and review are part of tottally separeted processes.**
 
 **Make sure you read these instructions carefully before you start. If you have any questions please reach out to your recruiting specialist.**
 
@@ -24,6 +26,8 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 ### Directions
 
+**The Theme**
+
 1. Review all the requirements on this page.
 
 2. Create a HubSpot theme from scratch. (note: in production situations we recommend using the boilerplate theme as a starting point, but for this assessment please create one from scratch). The basic folder and file structure should look like this:
@@ -31,20 +35,30 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 * Theme folder
   * CSS folder
     * At least one css file
-* Modules
-   At least one module (with html, css, js, fields, meta files)
-* Templates
-  * At least one template file
-  * Partials folder
-    * Partials for header and footer
-* Fields.json
-* Theme.json
+  * Modules
+    * At least one module (with html, css, js, fields, meta files)
+  * Templates
+    * At least one template file
+    * Partials folder
+      * Partials for header and footer
+  * Fields.json
+  * Theme.json
+
+**The Homepage**
 
 3. Use the page editor to create a page from your template. Make sure it behaves like the page in the demo gifs. If you are an experienced HubSpot CMS user and [want to use the HubSpot CLI][hubspot-cms-cli-docs], that's fine too!
 
 4. Make sure your code is versioned! You will need to share a link of the Github repository containing all your code with us when submiting this assessment.
 
-### The finished page
+**The Cats Library **
+
+5. Create another page to hold a cat library containing the same header and footer present on the global theme.
+
+7. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][hcode-exercise-cats-lib].
+
+### Home Page Elements
+
+The image bellow shows the order of the modules and how the content should be displayed but **feel free to improve the design and to showcase your CSS skills**.
 
 ![Finished page image][img-hubspot-cms-code-exercise-finished]
 
@@ -72,6 +86,10 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 ![Resizing effect][img-resizing-page-breakpoints-effect]
 
+* Cats Library module
+  * Must have the same look and feel of the Team module
+  * Must fetch the data from [this endpoint][hcode-exercise-cats-lib]
+
 *Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
 
 * Theme fields
@@ -86,7 +104,6 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 * Use modern JavaScript (ES6+), but be wary of browser support (see the FAQ section for a list of browsers we'll check support for).
 * Use a Javascript framework, e.g. React, Angular, Vue etc.
 * Use linting/prettify for neater code.
-* Add fuzzy search to the search field.
 * Anything that improves the experience for the user.
 
 ### Tips
