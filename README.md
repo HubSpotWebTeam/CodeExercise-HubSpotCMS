@@ -52,7 +52,7 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 5. Create another page to hold a cat library containing the same header and footer present on the global theme.
 
-7. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][hcode-exercise-cats-lib]. Make sure the library module is added to the page and that the global theme links and menus contains a link to this newly crreated page.
+7. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][code-exercise-cats-lib]. Make sure the library module is added to the page and that the global theme links and menus contains a link to this newly crreated page.
 
 ### Home Page Elements
 
@@ -86,7 +86,7 @@ The image bellow shows the order of the modules and how the content should be di
 
 * Cats Library module
   * Must have the same look and feel of the Team module
-  * Must fetch the data from [this endpoint][hcode-exercise-cats-lib]
+  * Must fetch the data from [this endpoint][code-exercise-cats-lib]
 
 *Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
 
@@ -151,3 +151,4 @@ Although we expect you to finish the exercise completely, we understand that lif
 [img-two-column-drag-and-drop]: ./imgs/img-two-column-drag-and-drop.gif
 [img-resizing-page-breakpoints-effect]: ./imgs/img-resizing-page-breakpoints-effect.gif
 [img-theme-fields]: ./imgs/img-theme-fields.gif
+[code-exercise-cats-lib]: ./data/cats.json
