@@ -115,9 +115,9 @@ The image bellow shows the order of the modules and how the content should be di
 
 ## How to Submit
 
-Fill out the submission.md file before submitting. If you deviated from the instructions or have any feedback, that's the place to put it! **Make sure you provide both the source code (your Github repository) and the link of your live page!**
+Fill out the submission.md file before submitting. If you deviated from the instructions or have any feedback, that's the place to put it!
 
-Once complete, email either (a) a zip of your work or (b) a link to your GitHub repository to your recruiting specialist so they can forward it to the web team.
+Once complete, email either (a) a zip of your work or (b) a link to your GitHub repository to your recruiting specialist so they can forward it to the web team. **Make sure you provide both the source code (your Github repository) and the link of your live page!**
 
 *Please not that the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] offers a similar practicum to this code exercise to give you a HubSpot Academy Certification but this present assessment has some extra requirements and its submission and review are part of tottally separeted processes.* **So please make sure to submit this assessment as explained above.**
 
@@ -146,8 +146,8 @@ Although we expect you to finish the exercise completely, we understand that lif
 [free-sandbox]: https://offers.hubspot.com/free-cms-developer-sandbox
 [cms-hub-free-trial]: https://app.hubspot.com/signup/trial-signup?intent=trial&trialId=18&dtt_source=get-started-page&hubs_signup-url=www.hubspot.com/products/get-started&hubs_signup-cta=getstarted-cmstrial&hubs_content=www.hubspot.com/&hubs_content-cta=homepage-nav&hs_chatflow=BOT117_VarA&_ga=2.209061524.766654493.1626950831-623576512.1624288828
 [hubspot-cms-cli-docs]: https://developers.hubspot.com/docs/cms/guides/getting-started
-[img-hubspot-cms-code-exercise-finished]: ./img-hubspot-cms-code-exercise-finished.png
-[img-global-header-editable-quote]: ./img-global-header-editable-quote.gif
-[img-two-column-drag-and-drop]: ./img-two-column-drag-and-drop.gif
-[img-resizing-page-breakpoints-effect]: ./img-resizing-page-breakpoints-effect.gif
-[img-theme-fields]: ./img-theme-fields.gif
+[img-hubspot-cms-code-exercise-finished]: ./imgs/img-hubspot-cms-code-exercise-finished.png
+[img-global-header-editable-quote]: ./imgs/img-global-header-editable-quote.gif
+[img-two-column-drag-and-drop]: ./imgs/img-two-column-drag-and-drop.gif
+[img-resizing-page-breakpoints-effect]: ./imgs/img-resizing-page-breakpoints-effect.gif
+[img-theme-fields]: ./imgs/img-theme-fields.gif
