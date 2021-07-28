@@ -27,7 +27,7 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 **Managing the source code**
 
 * If you are using the HubSpot CMS directly to code and implement your solution just make sure to download **all source the files**, keep the folder structure and zip them for submission. 
-* If you are using the [CMS CLI strategy][hubspot-cms-cli-docs], you might be versioning your code using GitHub (or similar tool). Feel free to either provide a zip file or a link to your repository.
+* If you are using the [CMS CLI strategy][hubspot-cms-cli-docs], you might be versioning your code using GitHub (or similar tool). Feel free to either provide a zip file or a link to your repository. Also you might want to [take a look this CMS Theme Bolierplate][cms-theme-boilerplate] to help you boostrap your repo.
 
 **The Theme**
 
@@ -159,3 +159,4 @@ Although we expect you to finish the exercise completely, we understand that lif
 [img-resizing-page-breakpoints-effect]: ./imgs/img-resizing-page-breakpoints-effect.gif
 [img-theme-fields]: ./imgs/img-theme-fields.gif
 [code-exercise-cats-lib]: https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/main/data/cats.json
+[cms-theme-boilerplate]: https://github.com/HubSpot/cms-theme-boilerplate
