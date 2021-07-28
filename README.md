@@ -151,4 +151,4 @@ Although we expect you to finish the exercise completely, we understand that lif
 [img-two-column-drag-and-drop]: ./imgs/img-two-column-drag-and-drop.gif
 [img-resizing-page-breakpoints-effect]: ./imgs/img-resizing-page-breakpoints-effect.gif
 [img-theme-fields]: ./imgs/img-theme-fields.gif
-[code-exercise-cats-lib]: ./data/cats.json
+[code-exercise-cats-lib]: https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/main/data/cats.json
