@@ -99,7 +99,9 @@ The image bellow shows the order of the modules and how the content should be di
 
 ### Bonus points
 
+* Write neat, modular code.
 * Use modern JavaScript (ES6+), but be wary of browser support (see the FAQ section for a list of browsers we'll check support for).
+* Use a pre-processor like SASS or SCSS.
 * Use a Javascript framework, e.g. React, Angular, Vue etc.
 * Use linting/prettify for neater code.
 * Anything that improves the experience for the user.
