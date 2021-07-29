@@ -51,7 +51,7 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 3. Use the page editor to create a page from your template. Make sure it behaves like the page in the demo gifs. This page should contain the global header and footer plus the *Our Mission* and *Our Team* sections (see *Team module* requirements).
 
-5. Please make sure to leverage the CMS capabilities for allowing Editor to update content.
+5. Please make sure to leverage the CMS capabilities for allowing editors to update content.
 
 6. The *Team module* should fetch the data from [this endpoint][code-exercise-cats-lib].
 
@@ -64,32 +64,32 @@ The image bellow shows the order of the modules and how the content should be di
 ### Requirements
 
 * All work must be your own. Submissions that do not meet this requirement will not be considered.
-* Global template partials for header and footer
-  * Header must have editable quote
+* Global template partials for header and footer:
+  * Header must have editable quote.
 
 ![Global header editable quote][img-global-header-editable-quote]
 
 *Editing the global header and changing the quote.*
 
-* Drag and drop area
+* Drag and drop area:
   * Must have two columns with an image module and a rich text module.
-  * These modules must have default content set inside the template
+  * These modules must have default content set inside the template.
 
 ![Two column drag and drop][img-two-column-drag-and-drop]
 
 *Dragging the two column drag and drop area in the page editor.*
 
-* Team module
-  * Must use repeating groups of fields to allow editors to add and subtract team members
-  * Must be at least 3 columns on large screens with at least one media query to change layout to 2 columns on screens below 900 pixels
-  * Must fetch the data from [this endpoint][code-exercise-cats-lib]
+* Team module:
+  * Must use repeating groups of fields to allow editors to add and subtract team members.
+  * Must be at least 3 columns on large screens with at least one media query to change layout to 2 columns on screens below 900 pixels.
+  * Must fetch the data from [this endpoint][code-exercise-cats-lib].
 
 ![Resizing effect][img-resizing-page-breakpoints-effect]
 
 *Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
 
-* Theme fields
-  * The theme must have at least 2 theme fields to control the font and the accent color used in the header and footer
+* Theme fields:
+  * The theme must have at least 2 theme fields to control the font and the accent color used in the header and footer.
 
 ![Editing theme field][img-theme-fields]
 
@@ -110,6 +110,7 @@ The image bellow shows the order of the modules and how the content should be di
 * You’ll probably want to use the layout.css file from the boilerplate to make your drag and drop area perform as expected.
 * You can build this locally or in the Design Tools.
 * The subject of the theme is up to you. If you're not a fan of cats, feel free to use any topic you'd like. **Creativity is encouraged.**
+* Checkout the [Hubl Documentation][hubl-docs] to help you with templating. 
 
 ---
 
@@ -155,3 +156,4 @@ Although we expect you to finish the exercise completely, we understand that lif
 [code-exercise-cats-lib]: https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise-HubSpotCMS/main/data/cats.json
 [cms-theme-boilerplate]: https://github.com/HubSpot/cms-theme-boilerplate
 [drag-n-drop-hubl]: https://developers.hubspot.com/docs/cms/hubl/tags/dnd-areas
+[hubl-docs]: https://developers.hubspot.com/docs/cms/hubl
