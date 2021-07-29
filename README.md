@@ -8,7 +8,7 @@ The goal of this exercise is to create a HubSpot theme so we can gauge your prof
 * HTML/CSS/JS
 * General resourcefulness and troubleshooting skills
 
-*If you are a Web Developer with no experience with any CMS or no contact with the HubSpot CMS, the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] (Duration ~2.5 hours) will be quite helpfull! That course is not mandatory for this process but it will help you to familiarise with HubSpot CMS and other CMS concepts.*
+*If you are a Web Developer with no experience with any CMS or no contact with the HubSpot CMS, the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] (duration ~2.5 hours) will be quite helpfull! That course is not mandatory for this process but it will help you to familiarise with HubSpot CMS and other CMS concepts.*
 
 ---
 
@@ -51,11 +51,9 @@ You will need to make sure you have access to a HubSpot Portal or a Developer Sa
 
 3. Use the page editor to create a page from your template. Make sure it behaves like the page in the demo gifs. This page should contain the global header and footer plus the *Our Mission* and *Our Team* sections (see *Team module* requirements).
 
-**The Cats Library Page**
+5. Please make sure to leverage the CMS capabilities for allowing Editor to update content.
 
-4. Create another page to hold a cat library containing the same header and footer present on the global theme.
-
-5. Create a *Cats Library module* with the same look and feel of the *Team module* but this time instead of letting CMS Page Editors to input the information, make sure to fetch the data from [this endpoint][code-exercise-cats-lib]. Make sure the *Cats Library module* is added to the page and that the global theme links and menus contains a link to this newly crreated page.
+6. The *Team module* should fetch the data from [this endpoint][code-exercise-cats-lib].
 
 ### Home Page Elements
 
@@ -84,14 +82,11 @@ The image bellow shows the order of the modules and how the content should be di
 * Team module
   * Must use repeating groups of fields to allow editors to add and subtract team members
   * Must be at least 3 columns on large screens with at least one media query to change layout to 2 columns on screens below 900 pixels
+  * Must fetch the data from [this endpoint][code-exercise-cats-lib]
 
 ![Resizing effect][img-resizing-page-breakpoints-effect]
 
 *Resizing the browser and triggering the breakpoint where the columns switch from 3 to 2.*
-
-* Cats Library module
-  * Must have the same look and feel of the Team module
-  * Must fetch the data from [this endpoint][code-exercise-cats-lib]
 
 * Theme fields
   * The theme must have at least 2 theme fields to control the font and the accent color used in the header and footer
@@ -105,7 +100,6 @@ The image bellow shows the order of the modules and how the content should be di
 * Write neat, modular code.
 * Use modern JavaScript (ES6+), but be wary of browser support (see the FAQ section for a list of browsers we'll check support for).
 * Use a pre-processor like SASS or SCSS.
-* Use a Javascript framework, e.g. React, Angular, Vue etc.
 * Use linting/prettify for neater code.
 * Anything that improves the experience for the user.
 * Create the page with accessibility in mind and use semantic HTML.
@@ -116,7 +110,6 @@ The image bellow shows the order of the modules and how the content should be di
 * You’ll probably want to use the layout.css file from the boilerplate to make your drag and drop area perform as expected.
 * You can build this locally or in the Design Tools.
 * The subject of the theme is up to you. If you're not a fan of cats, feel free to use any topic you'd like. **Creativity is encouraged.**
-* Try to create a single template for both the Homepage and the Cats Library Page and leverage [Drag and Drop areas][drag-n-drop-hubl].
 
 ---
 
@@ -126,7 +119,7 @@ Fill out the submission.md file before submitting. If you deviated from the inst
 
 Once complete, email either (a) a zip of your work or (b) a link to your GitHub repository to your recruiting specialist so they can forward it to the web team. **Make sure you provide both the source code (your Github repository) and the link of your live page!**
 
-*Please not that the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] offers a similar practicum to this code exercise to give you a HubSpot Academy Certification but this present assessment has some extra requirements and its submission and review are part of tottally separeted processes.* **So please make sure to submit this assessment as explained above.**
+*Please note that the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] offers a similar practicum to this code exercise to give you a HubSpot Academy Certification but this present assessment has some extra requirements and its submission and review are part of totally separeted processes.* **So please make sure to submit this assessment as explained above.**
 
 ---
 
