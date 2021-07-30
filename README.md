@@ -138,7 +138,7 @@ We'll look for compatibility with the following browsers:
 * Microsoft Edge (latest version)
 
 ### What color values should I use?
-The exact color values don't matter; just try to get as close to the mockup as you can. You could also use a Chrome extension such as this color-picker.
+The exact color values don't matter, just try to get as close to the mockup as you can. You could also use a Chrome extension such as this [color-picker][link-color-picker].
 
 ### I'm running out of time, may I skip some of the requirements?
 
@@ -157,3 +157,4 @@ Although we expect you to finish the exercise completely, we understand that lif
 [cms-theme-boilerplate]: https://github.com/HubSpot/cms-theme-boilerplate
 [drag-n-drop-hubl]: https://developers.hubspot.com/docs/cms/hubl/tags/dnd-areas
 [hubl-docs]: https://developers.hubspot.com/docs/cms/hubl
+[link-color-picker]: https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en
