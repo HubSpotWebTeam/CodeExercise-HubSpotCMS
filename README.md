@@ -120,6 +120,8 @@ Fill out the submission.md file before submitting. If you deviated from the inst
 
 Once complete, email either (a) a zip of your work or (b) a link to your GitHub repository to your recruiting specialist so they can forward it to the web team. **Make sure you provide both the source code (your Github repository) and the link of your live page!**
 
+**Security Note: If you complete this locally, you'll most likely have a hubspot.config.yml, DO NOT SUBMIT THIS OR COMMIT THIS TO GITHUB, it contains secure credentials that should not be shared, ideally your project should contain a [.gitignore](https://git-scm.com/docs/gitignore) file that prevents this from being committed.**
+
 *Please note that the [HubSpot CMS for Developers Course][academy-hubspot-cms-for-devs] offers a similar practicum to this code exercise to give you a HubSpot Academy Certification but this present assessment has some extra requirements and its submission and review are part of totally separeted processes.* **So please make sure to submit this assessment as explained above.**
 
 ---
